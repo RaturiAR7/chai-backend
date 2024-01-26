@@ -29,7 +29,7 @@ const userSchema = new mongoose.Schema(
       type: "String", /////////Cloudinary URL
       required: true,
     },
-    coverimage: {
+    coverImage: {
       type: "String", /////////Cloudinary URL
     },
     watchHistory: {
